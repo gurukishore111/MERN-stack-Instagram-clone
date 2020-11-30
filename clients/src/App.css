@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+a {
+  color: black !important;
+}
+
+* {
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.mycard {
+  margin-top: 10%;
+}
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+/* label color */
+.input-field label {
+  color: #000 !important;
+}
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: #000 !important;
+}
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+/* label underline focus color */
+.input-field input[type="password"]:focus {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+/* valid color */
+.input-field input[type="text"].valid {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+/* valid color */
+.input-field input[type="password"].valid {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+/* invalid color */
+.input-field input[type="text"].invalid {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000 !important;
+}
+
+.profile_follow {
+  width: 108%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile_follow > h5 {
+  font-size: 17px;
+}
+
+.profile_info > h4 {
+  font-size: 25px;
+}
+
+.profile_image {
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.items {
+  width: 30%;
+  padding: 5px;
+  justify-content: space-around;
+  border-radius: 9px;
+}
+
+.post_profile > img {
+  width: 40px;
+  padding: 1px;
+  padding-left: 2px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.post_profile {
+  display: flex;
+}
+
+.post_profile > h5 {
+  font-size: 19px;
+  margin-top: 8px;
+  margin-left: 7px;
+}
+
+.home-card {
+  max-width: 500px;
+  height: max-content;
+  margin: 26px auto;
+}
+
+.home-card > h5 {
+  font-size: 19px;
+}
+
+.card-content > h4 {
+  font-size: 19px !important;
+}
+
+.deleteIcon {
+  color: gray;
+  margin-top: 10px;
+  margin-left: 380px;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile_follow {
+    width: 104%;
+  }
+  nav ul a {
+    font-size: 10px;
+  }
+  .profile_follow > h5 {
+    font-size: 13px;
+    margin-top: -5px;
+  }
+  .profile_image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 12px;
+  }
+  .deleteIcon {
+    margin-left: 270px;
+  }
+  .profile_info {
+    margin-left: -22px;
+  }
+  .buttton {
+    font-size: 8px !important;
+    padding: 0 7px !important;
+  }
+  .profile_info > h4 {
+    font-size: 20px;
+  }
+  .post_profile > h5 {
+    font-size: 11px;
+    margin-top: 14px;
+    font-weight: 500;
+  }
+  .card-content > h4 {
+    font-size: 14px !important;
+    margin-top: -3px;
+  }
+  .card-content > p {
+    font-size: 14px !important;
+    margin-top: -5px !important;
+  }
+}
+
+.MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+.loadingLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 12px;
+}
+
+#toast-container {
+  top: 30px !important;
+  right: 20px !important;
+  left: auto !important;
+}
